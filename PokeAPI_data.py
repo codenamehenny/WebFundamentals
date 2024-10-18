@@ -53,8 +53,7 @@ if pokemon_data_list:
     try:
         average_weight = calculate_average_weight(pokemon_data_list)
         # organizes Pokémon details
-        print("\n
-        Here's each Pokémon's data:\n")
+        print("\nHere's each Pokémon's data:\n")
         for pokemon in pokemon_data_list:
             print(f"Name: {pokemon['name'].title()}")
             print(f"Abilities: {', '.join(pokemon['abilities'])}")
